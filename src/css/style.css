@@ -1,0 +1,79 @@
+body {
+  color: #333;
+}
+
+input {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  padding: .375rem .75rem;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  margin: .375rem
+}
+
+button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: rgb(88, 199, 103);
+  color: white;
+  border-radius: .25rem;
+  border: 1px solid #ced4da;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 3rem;
+  height: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 2px;
+}
+
+.notactive {
+  filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+.mistake {
+  color: red;
+}
+
+.american_express {
+  background-image: url("../img/american_express.png");
+}
+.discover {
+  background-image: url("../img/discover.png");
+}
+.diners_club {
+  background-image: url("../img/diners_club.png");
+}
+.jcb {
+  background-image: url("../img/jcb.png");
+}
+.maestro {
+  background-image: url("../img/maestro.png");
+}
+.mastercard {
+  background-image: url("../img/mastercard.png");
+}
+.mir {
+  background-image: url("../img/mir.png");
+}
+.unionpay {
+  background-image: url("../img/unionpay.png");
+}
+.VISA {
+  background-image: url("../img/VISA.png");
+}
